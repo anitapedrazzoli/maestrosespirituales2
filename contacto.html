@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="principal.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+        </style>
+</head>
+
+<body bgcolor="lightblue" style=" background-image:url('imagen/manitos.jpg') ;background-size:cover;">
+
+    <nav id='menu'>
+        <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+        <li><a href='index.html'>Inicio</a></li>
+        <li><a href='osho.html'>Osho</a></li>
+        <li><a href='mooji.html'>Mooji</a></li>
+        <li><a href='tolle.html'>Tolle</a></li>
+        <li><a href='foster.html'>Foster</a></li>
+        <li><a href='vipassana.html'>Vipassana</a></li>
+        <li><a href='contacto.html'>Contacto</a></li>
+        </ul>
+    </nav>
+
+    <div class="css-3d-text">Formulario de contacto</div>
+    <form action="mailto: gonzaduch@gmail.com" enctype="text/plain" method="post">
+        <table border="2" align="center" width="42%" bgcolor="skyblue" bordercolor="yellow">
+            <div class="formulariofont">
+            <tr>
+                <td>Apellido</td>
+                <td><input name="Apellido" type="text" size="50" maxlenght="40" /></td>
+            </tr>
+            <tr>
+                <td>Nombres</td>
+                <td><input name="Nombres" type="text" size="50" maxlenght="40" /></td>
+            </tr>
+            <tr>
+                <td>Correo electrónico</td>
+                <td><input name="email" type="email" size="50" maxlenght="10" /></td>
+            </tr>
+            <tr>
+                <td>Lugar de Nacimiento</td>
+                <td><input name="Tipodoc" type="text" size="50" maxlenght="10" /></td>
+            </tr>
+            <tr>
+                <td>Número de teléfono</td>
+                <td><input name="nrdoc" type="number " size="50" maxlenght="9" /></td>
+            </tr>
+            <tr>
+                <td>Observaciones: </td>
+                <td><textarea name="ejemploarea" cols="50" rows="2">Escriba aquí...</textarea></td>
+            </tr>
+        </table>
+        <p align="center"><input type="submit" value="Enviar" /></p>
+    </div>
+    </form>
+</body>
+
+</html>
